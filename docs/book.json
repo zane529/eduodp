@@ -1,0 +1,43 @@
+{
+  "title": "ODP_Demo 地理科学解决方案包完整指南",
+  "description": "基于AWS开放数据的地理空间AI分析平台完整使用手册",
+  "author": "ODP_Demo Team",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "plugins": [
+    "theme-comscore",
+    "anchors",
+    "expandable-chapters",
+    "page-toc-button",
+    "back-to-top-button",
+    "chapter-fold",
+    "code",
+    "splitter",
+    "search-pro",
+    "-search",
+    "-lunr"
+  ],
+  "pluginsConfig": {
+    "theme-comscore": {
+      "color": "#2196F3"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "fontFamily": "Arial",
+    "paperSize": "a4",
+    "chapterMark": "pagebreak",
+    "pageBreaksBefore": "/",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 56,
+      "bottom": 56
+    }
+  }
+}
