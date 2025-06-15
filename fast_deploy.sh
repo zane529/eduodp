@@ -1,5 +1,7 @@
 #!/bin/bash
 
+whoami
+
 # Conda Packages 
 echo "Nvida Enviorment Setup ..."
 # conda install -y -c conda-forge nvitop 
