@@ -27,7 +27,11 @@ pip install git+https://github.com/opengeos/segment-geospatial
 # Conda Packages 
 echo "Java Geo-Display Enviorment Setup ..."
 # conda install -y jupyter_contrib_nbextensions -c conda-forge
-conda install -c conda-forge geoai -y
+conda install -c conda-forge geoai
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager @lumino/widgets jupyter-leaflet
+# jupyter nbextension enable widgetsnbextension --py --sys-prefix
+# jupyter labextension install js
+jupyter labextension list
 
 # Create Kernel for Notebook
 ipython kernel install --name "python-geo" --user
