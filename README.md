@@ -6,10 +6,11 @@
 ![AWS](https://img.shields.io/badge/AWS-SageMaker-orange?style=for-the-badge&logo=amazon-aws)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![LaTeX](https://img.shields.io/badge/LaTeX-Professional_Book-green?style=for-the-badge&logo=latex)
 
 **基于AWS开放数据的地理空间AI分析平台**
 
-[📚 中文文档](./docs/) | [🚀 快速开始](#快速开始) | [🛠️ 功能特性](#功能特性) | [📖 使用指南](#使用指南)
+[📚 中文文档](./docs/) | [🚀 快速开始](#快速开始) | [🛠️ 功能特性](#功能特性) | [📖 专业手册](#专业技术手册)
 
 </div>
 
@@ -26,6 +27,34 @@ ODP_Demo是一个综合性的地理科学解决方案包，集成了AWS开放数
 - **💬 自然语言交互**: 支持文本提示的地理空间分析
 - **📊 交互式可视化**: 基于Leafmap的动态地图和时序分析
 - **🔧 即插即用**: 完整的AWS SageMaker部署方案
+
+## 📖 专业技术手册
+
+### 🆕 LaTeX专业版手册
+
+我们提供了完整的117页专业技术手册，采用LaTeX排版，包含详细的技术解析和代码示例：
+
+- **📁 位置**: `ODP_LaTeX_Book/`
+- **📄 PDF文件**: `main.pdf` (889KB)
+- **📚 章节**: 19个专业章节，7个技术部分
+- **🔧 编译**: 使用 `make build` 命令
+
+#### 手册结构
+1. **项目基础** - 系统概述与环境配置
+2. **基础功能详解** - 地图创建、数据可视化、搜索与检查
+3. **多源数据集成** - Maxar、Planet、OpenAerialMap数据处理
+4. **时序分析与案例** - 动态分析与土耳其地震案例
+5. **AI图像分析** - SAM技术核心与农业应用
+6. **智能分割与文本提示** - 高级AI交互技术
+7. **数据处理与服务** - 底图服务与多格式数据处理
+
+#### 快速编译手册
+```bash
+cd ODP_LaTeX_Book
+make build    # 编译完整手册
+make clean    # 清理临时文件
+make watch    # 监控自动编译
+```
 
 ## 🛠️ 功能特性
 
